@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+<h1 >form to fill:</h1>
+    </div>
+    <form style="border: 8px solid rgb(13, 1, 1); padding: 40px;background-color: rgba(6, 101, 101, 0.202); " method="post">
+        <div>
+            <label for="name">name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br />
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br />
+        <div>
+            <label for="age">age:</label>
+            <input type="number" id="age" name="age" min="10" max="100" required>
+        </div>
+        <br />
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="10" required>
+        </div>
+        <br />
+        <div>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <br />
+        <div>
+            <p>choose your gender:</p>
+            <label for="fm">female</label>
+            <input type="radio" id="fm" name="gender">
+            <br>
+            <label for="m">male</label>
+            <input type="radio" id="m" name="gender">
+            <br>
+            <label for="mfm">other</label>
+            <input type="radio" id="mfm" name="gender">
+        </div>
+        <br />
+        <div>
+            <p>hobbies:</p>
+            <label for="r">reading</label>
+            <input type="checkbox" id="r" name="h">
+            <br />
+            <label for="s">sports</label>
+            <input type="checkbox" id="s" name="h1">
+            <br />
+            <label for="mu">music</label>
+            <input type="checkbox" id="mu" name="h">
+            <br />
+            <label for="c">coding</label>
+            <input type="checkbox" id="c" name="h">
+
+        </div>
+        <br>
+        <div>
+            <label >country:</label>
+            <select multiple>
+                <option value="i">india</option>
+                <option value="usa">usa</option>
+                <option value="uk">uk</option>
+                <option value="japan">japan</option>
+                <option value="norway">norway</option>
+            </select>
+        </div>
+        <br />
+        <div>
+
+            <input type="submit">
+        </div>
+        <br />
+        <div>
+
+            <input type="reset">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
